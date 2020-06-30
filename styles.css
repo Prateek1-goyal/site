@@ -1,0 +1,130 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  line-height: 1;
+}
+
+h1 {
+  color: #66BFBF;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  /* 100%=16px=1em   use rem not em same as em*/
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.top-container {
+  background-color: #e4f9ff;
+  position: relative;
+  padding-top: 100px;
+  margin-top: 0;
+}
+
+.middle-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.skills {
+  width: 30%;
+  margin: auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.webp1 {
+  color: #66BFBF;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.game-img {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+
+.computer-img {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.btn {
+  margin: 100px auto;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4f34d9;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cfcec;
+  text-decoration: none;
+}
+.end{
+  margin: 10px auto 100px auto;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
